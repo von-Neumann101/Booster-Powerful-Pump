@@ -18,6 +18,9 @@ public final class BoosterItems {
             new Item.Properties()
         ));
 
+    public static final RegistryObject<Item> NETHERITE_SHEET =
+        ITEMS.register("netherite_sheet", () -> new Item(new Item.Properties()));
+
     private BoosterItems() {
     }
 
