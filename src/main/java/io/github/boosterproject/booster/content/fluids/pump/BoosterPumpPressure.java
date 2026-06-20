@@ -18,7 +18,7 @@ public final class BoosterPumpPressure {
      */
     private static final float MAX_EFFECTIVE_PRESSURE = 4096.0F;
     private static final boolean DEBUG_PRESSURE =
-        !FMLLoader.isProduction() && Boolean.getBoolean("booster.debugPumpPressure");
+        !FMLLoader.isProduction() && Boolean.getBoolean("createnetherite.debugPumpPressure");
 
     private BoosterPumpPressure() {
     }

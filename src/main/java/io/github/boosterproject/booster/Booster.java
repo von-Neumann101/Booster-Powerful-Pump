@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 
 @Mod(Booster.MOD_ID)
 public class Booster {
-    public static final String MOD_ID = "booster";
+    public static final String MOD_ID = "createnetherite";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Booster() {
@@ -34,7 +34,7 @@ public class Booster {
         modEventBus.addListener(this::commonSetup);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> BoosterClient.register(modEventBus));
 
-        LOGGER.info("Booster loaded");
+        LOGGER.info("Create Netherite loaded");
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

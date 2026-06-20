@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block"
+    },
+    "facing=west": {
+      "model": "createnetherite:block/powerful_mechanical_pump/block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

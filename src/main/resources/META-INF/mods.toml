@@ -3,29 +3,29 @@ loaderVersion = "[47,)"
 license = "MIT"
 
 [[mods]]
-modId = "booster"
+modId = "createnetherite"
 version = "${version}"
-displayName = "Booster"
+displayName = "Create Netherite"
 authors = "Booster contributors"
 description = '''
 A Create addon mod.
 '''
 
-[[dependencies.booster]]
+[[dependencies.createnetherite]]
 modId = "forge"
 mandatory = true
 versionRange = "[47.1.33,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.booster]]
+[[dependencies.createnetherite]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1]"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.booster]]
+[[dependencies.createnetherite]]
 modId = "create"
 mandatory = true
 versionRange = "[6.0.8,)"

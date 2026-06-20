@@ -16,7 +16,7 @@ public class PowerfulMechanicalPumpBlockItem extends BlockItem {
 
     @Override
     public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.translatable("tooltip.booster.powerful_mechanical_pump"));
+        tooltip.add(Component.translatable("tooltip.createnetherite.powerful_mechanical_pump"));
         super.appendHoverText(stack, level, tooltip, flag);
     }
 }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "booster:powerful_mechanical_pump"
+          "name": "createnetherite:powerful_mechanical_pump"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "booster:blocks/powerful_mechanical_pump"
+  "random_sequence": "createnetherite:blocks/powerful_mechanical_pump"
 }

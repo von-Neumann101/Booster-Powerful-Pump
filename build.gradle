@@ -5,7 +5,7 @@ plugins {
 }
 
 base {
-    archivesName = "booster-${minecraft_version}"
+    archivesName = "createnetherite-${minecraft_version}"
     group = mod_group_id
     version = mod_version
 }
@@ -27,7 +27,7 @@ legacyForge {
     }
 
     mods {
-        booster {
+        createnetherite {
             sourceSet(sourceSets.main)
         }
     }
@@ -36,7 +36,7 @@ legacyForge {
         configureEach {
             systemProperty("forge.logging.markers", "")
             systemProperty("forge.logging.console.level", "info")
-            programArgument("-mixin.config=booster.mixins.json")
+            programArgument("-mixin.config=createnetherite.mixins.json")
         }
 
         client {
@@ -51,10 +51,10 @@ legacyForge {
     }
 }
 
-Provider<RegularFile> boosterRefmap
+Provider<RegularFile> createNetheriteRefmap
 mixin {
-    boosterRefmap = add(sourceSets.main, "booster.refmap.json")
-    config "booster.mixins.json"
+    createNetheriteRefmap = add(sourceSets.main, "createnetherite.refmap.json")
+    config "createnetherite.mixins.json"
 }
 
 repositories {
@@ -102,8 +102,8 @@ processResources {
 }
 
 jar {
-    from(boosterRefmap)
+    from(createNetheriteRefmap)
     manifest.attributes([
-        "MixinConfigs": "booster.mixins.json"
+        "MixinConfigs": "createnetherite.mixins.json"
     ])
 }

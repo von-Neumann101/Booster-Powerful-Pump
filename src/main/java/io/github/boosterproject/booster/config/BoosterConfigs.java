@@ -18,7 +18,7 @@ public final class BoosterConfigs {
     }
 
     public static void register(ModLoadingContext context) {
-        context.registerConfig(ModConfig.Type.SERVER, SERVER_SPEC, "booster-server.toml");
+        context.registerConfig(ModConfig.Type.SERVER, SERVER_SPEC, "createnetherite-server.toml");
     }
 
     public static final class Server {
@@ -28,7 +28,7 @@ public final class BoosterConfigs {
         private Server(ForgeConfigSpec.Builder builder) {
             powerfulPumpStressImpact = builder
                 .comment(
-                    "Create base stress impact for booster:powerful_mechanical_pump at 1 RPM.",
+                    "Create base stress impact for createnetherite:powerful_mechanical_pump at 1 RPM.",
                     "Create's kinetic network still scales the final stress cost with RPM; Booster does not multiply by speed here.",
                     "Must be greater than 0.",
                     "Restart the world or server after changing this value to guarantee existing kinetic networks are recalculated."
@@ -37,7 +37,7 @@ public final class BoosterConfigs {
 
             powerfulPumpPressureMultiplier = builder
                 .comment(
-                    "Pressure multiplier applied by booster:powerful_mechanical_pump.",
+                    "Pressure multiplier applied by createnetherite:powerful_mechanical_pump.",
                     "Effective pressure is abs(speed) multiplied by this value, then clamped by Booster's safety cap.",
                     "Create's FluidNetwork derives transfer speed from pressure, so higher values increase throughput.",
                     "Must be greater than 0.",

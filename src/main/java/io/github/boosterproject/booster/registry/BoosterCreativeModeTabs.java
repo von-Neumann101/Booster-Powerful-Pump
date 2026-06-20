@@ -13,9 +13,9 @@ public final class BoosterCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
         DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Booster.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> BOOSTER =
-        CREATIVE_MODE_TABS.register("booster", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.booster.booster"))
+    public static final RegistryObject<CreativeModeTab> CREATE_NETHERITE =
+        CREATIVE_MODE_TABS.register("createnetherite", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.createnetherite.createnetherite"))
             .icon(() -> new ItemStack(BoosterItems.POWERFUL_MECHANICAL_PUMP.get()))
             .displayItems((parameters, output) -> {
                 output.accept(BoosterItems.POWERFUL_MECHANICAL_PUMP.get());
