@@ -61,14 +61,6 @@ booster-server.toml
 - 复用 Create 原版机械泵和流体管网逻辑。
 - 提高基础应力消耗。
 - 提高写入 Create 流体网络的 pressure。
-- 红色管道、黑色齿轮外观。
-
-当前没有实现：
-
-- Ponder 教程。
-- 正式平衡配方。
-- 额外流向机制。
-- 独立流体管道系统。
 
 ## English
 
@@ -131,11 +123,4 @@ Existing worlds keep their own `serverconfig/booster-server.toml`. If you change
 - Reuses Create's original Mechanical Pump and fluid network logic.
 - Increases base stress impact.
 - Increases pressure written into Create's fluid network.
-- Uses a red pipe and black gear appearance.
-
-Not implemented yet:
-
-- Ponder scenes.
-- Final balanced recipe.
-- Additional flow direction mechanics.
-- A custom independent fluid pipe system.
+- 
